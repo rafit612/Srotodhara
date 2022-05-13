@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ECommerce/app/src/main/res/layout/activity_jackets_women.xml" value="0.20969202898550723" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/activity_loginwith_email.xml" value="0.1641337386018237" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/activity_welcome_screen.xml" value="0.1641337386018237" />
+        <entry key="..\:/ECommerce/app/src/main/res/layout/cosmetic_layout.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_bodyand_bath.xml" value="0.17239583333333333" />
+        <entry key="app/src/main/res/layout/activity_cloth_landing.xml" value="0.3578125" />
+        <entry key="app/src/main/res/layout/activity_coat_women.xml" value="0.2151268115942029" />
+        <entry key="app/src/main/res/layout/activity_complete_profile.xml" value="0.17239583333333333" />
+        <entry key="app/src/main/res/layout/activity_cosmetic.xml" value="0.17239583333333333" />
+        <entry key="app/src/main/res/layout/activity_delivery_detail.xml" value="0.3578125" />
+        <entry key="app/src/main/res/layout/activity_fragnance.xml" value="0.17239583333333333" />
+        <entry key="app/src/main/res/layout/activity_gown_women.xml" value="0.3578125" />
+        <entry key="app/src/main/res/layout/activity_hair_care.xml" value="0.19895833333333332" />
+        <entry key="app/src/main/res/layout/activity_hijab.xml" value="0.3578125" />
+        <entry key="app/src/main/res/layout/activity_jackets_women.xml" value="0.3578125" />
+        <entry key="app/src/main/res/layout/activity_kurtis_women.xml" value="0.3578125" />
+        <entry key="app/src/main/res/layout/activity_login_otpactivity.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_login_with_mobile.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_loginwith_email.xml" value="0.2907608695652174" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_makeup.xml" value="0.17239583333333333" />
+        <entry key="app/src/main/res/layout/activity_men.xml" value="0.17239583333333333" />
+        <entry key="app/src/main/res/layout/activity_men_care.xml" value="0.3578125" />
+        <entry key="app/src/main/res/layout/activity_order_history.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_pants_women.xml" value="0.17239583333333333" />
+        <entry key="app/src/main/res/layout/activity_personal_care.xml" value="0.17239583333333333" />
+        <entry key="app/src/main/res/layout/activity_register_with_mobile.xml" value="0.2907608695652174" />
+        <entry key="app/src/main/res/layout/activity_registerwith_mail2.xml" value="0.2907608695652174" />
+        <entry key="app/src/main/res/layout/activity_saree.xml" value="0.3578125" />
+        <entry key="app/src/main/res/layout/activity_shalwar_kameez2.xml" value="0.3578125" />
+        <entry key="app/src/main/res/layout/activity_shorts_women.xml" value="0.3578125" />
+        <entry key="app/src/main/res/layout/activity_skin_care.xml" value="0.17239583333333333" />
+        <entry key="app/src/main/res/layout/activity_skirts.xml" value="0.3578125" />
+        <entry key="app/src/main/res/layout/activity_sweater_women.xml" value="0.3578125" />
+        <entry key="app/src/main/res/layout/activity_top_women.xml" value="0.3578125" />
+        <entry key="app/src/main/res/layout/activity_under_wear_women.xml" value="0.3578125" />
+        <entry key="app/src/main/res/layout/activity_welcome_screen.xml" value="0.3111413043478261" />
+        <entry key="app/src/main/res/layout/activity_women2.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/cosmetic_layout.xml" value="0.3578125" />
+        <entry key="app/src/main/res/layout/nav_header.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/orderlist.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/slider_item.xml" value="0.3578125" />
+        <entry key="app/src/main/res/menu/my_navigation_items.xml" value="0.3578125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

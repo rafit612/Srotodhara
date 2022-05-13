@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ecommerce">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ECommerce">
+        <activity
+            android:name=".OrderHistoryActivity"
+            android:exported="false" />
+        <activity android:name=".LoginwithEmailActivity" />
+        <activity
+            android:name=".DeliveryDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ClothLandingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UnderWearWomenActivity"
+            android:exported="true" />
+        <activity
+            android:name=".JacketsWomenActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TopWomenActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SweaterWomenActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SkirtsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ShortsWomenActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ShalwarKameezActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".SareeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PantsWomenActivity"
+            android:exported="true" />
+        <activity
+            android:name=".KurtisWomenActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GownWomenActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CoatWomenActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HijabActivity"
+            android:exported="true" />
+        <activity android:name=".CompleteProfileActivity" />
+        <activity android:name=".LoginOTPActivity" />
+        <activity android:name=".LoginWithMobileActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".EnterOTPActivity" />
+        <activity android:name=".RegisterWithMobileActivity" />
+        <activity android:name=".RegisterwithMailActivity2" />
+        <activity android:name=".MenCareActivity" />
+        <activity android:name=".MakeupActivity" />
+        <activity android:name=".PersonalCareActivity" />
+        <activity android:name=".SkinCareActivity" />
+        <activity android:name=".FragnanceActivity" />
+        <activity android:name=".HairCareActivity" />
+        <activity android:name=".BodyandBathActivity" />
+        <activity android:name=".WomenActivity2" />
+        <activity android:name=".MenActivity" />
+        <activity android:name=".CosmeticActivity" />
+        <activity
+            android:name=".WelcomeScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

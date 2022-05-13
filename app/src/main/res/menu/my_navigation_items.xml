@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+    <item
+            android:id="@+id/order"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Order History" />
+
+
+    <item android:title="Category">
+
+        <menu>
+            <item
+                android:id="@+id/cos"
+
+                android:title="Health and Beauty" />
+            <item
+                android:id="@+id/men"
+
+                android:title="Mens Fashion" />
+            <item
+                android:id="@+id/women"
+
+                android:title="Women Fashion" />
+        </menu>
+
+    </item>
+
+    <item android:title="Contact">
+        <menu>
+            <item
+                android:id="@+id/nav_web"
+                android:icon="@drawable/web"
+                android:title="Website" />
+            <item
+                android:id="@+id/nav_email"
+                android:icon="@drawable/mail"
+                android:title="Email" />
+            <item
+                android:id="@+id/nav_cs"
+                android:icon="@drawable/support"
+                android:title="Customer Support" />
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/facebook"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/nav_messenger"
+                android:icon="@drawable/messenger"
+                android:title="Messenger" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/About"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:title="About Us" />
+    <item
+        android:id="@+id/store"
+        android:icon="@drawable/store"
+        android:title="Store Location" />
+    <item
+        android:id="@+id/signout"
+        android:icon="?attr/actionModeCloseDrawable"
+        android:title="Sign Out" />
+</menu>

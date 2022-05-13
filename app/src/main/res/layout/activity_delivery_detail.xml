@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8D2D2"
+    tools:context=".DeliveryDetailActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/brand_design"
+                android:fontFamily="@font/ubuntu_bold"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Necessary Information"
+                android:textColor="#000000"
+                android:textColorHint="#505050" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="#45FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/ubuntu_bold"
+                android:hint="Address"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textColorHint="#505050"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="#45FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/ubuntu_bold"
+                android:hint="District"
+                android:inputType="textPersonName"
+                android:maxLength="15"
+                android:minHeight="48dp"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textColorHint="#505050"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editTextPhone4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="#45FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/ubuntu_bold"
+                android:hint="Enter Mobile Number:01XXXXXXXXX"
+                android:inputType="phone"
+                android:maxLength="11"
+                android:minHeight="48dp"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textColorHint="#505050"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editTextNumber3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="#45FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/ubuntu_bold"
+                android:hint="Road Number"
+                android:inputType="number"
+                android:maxLength="10"
+                android:minHeight="48dp"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textColorHint="#505050"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="#45FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/ubuntu_bold"
+                android:hint="Block"
+                android:inputType="textPersonName"
+                android:maxLength="10"
+                android:minHeight="48dp"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textColorHint="#505050"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="#45FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/ubuntu_bold"
+                android:hint="Area/Thana"
+                android:inputType="textPersonName"
+                android:maxLength="10"
+                android:minHeight="48dp"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textColorHint="#505050"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName7"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="#45FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/ubuntu_bold"
+                android:hint="Product Size/ Other Info you want to give"
+                android:inputType="textPersonName"
+                android:maxLength="50"
+                android:minHeight="48dp"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textColorHint="#505050"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/brand_design"
+                android:fontFamily="@font/ubuntu_bold"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Payment Option"
+                android:textColor="#000000"
+                android:textColorHint="#505050" />
+
+            <RadioGroup
+                android:id="@+id/deliveryOption"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:gravity="left"
+                android:orientation="vertical"
+                app:boxStrokeColor="#FFFFFF"
+                app:endIconTint="#000000">
+
+                <RadioButton
+                    android:id="@+id/COD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ubuntu_bold"
+                    android:text="Cash On Delivery"
+                    android:textColor="#000000" />
+
+                <RadioButton
+                    android:id="@+id/pay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ubuntu_bold"
+                    android:text="Pay on VISA/Master/Mobile Banking"
+                    android:textColor="#000000" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/brand_design"
+                android:fontFamily="@font/ubuntu_bold"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Order Details "
+                android:textColor="#000000" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/imageView68"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="right"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/ubuntu_bold"
+                        android:padding="5dp"
+                        android:text="Title"
+                        android:textColor="#000000" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:id="@+id/textView22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/ubuntu_bold"
+                            android:text="Quantity: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:id="@+id/textView23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/ubuntu_bold"
+                            android:text="1"
+                            android:textColor="#000000" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:id="@+id/textView24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/ubuntu_bold"
+                            android:text="Delivery Charge: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:id="@+id/textView25"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/ubuntu_bold"
+                            android:text="60"
+                            android:textColor="#000000" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:id="@+id/textView20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/ubuntu_bold"
+                            android:text="Total Price: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:id="@+id/textView19"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/ubuntu_bold"
+                            android:text="0"
+                            android:textColor="#000000" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#FFFFFF"
+                android:backgroundTint="#373737"
+                android:fontFamily="@font/ubuntu_bold"
+                android:text="Continue"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
